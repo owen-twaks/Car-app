@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://owen1:owenm123@project-2.9anel.mongodb.net/owen1?retryWrites=true&w=majority",
+    "jwtSecret" : "sl_todoSecret"
+}

@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #69696b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* DisplayCars */
+.tableheader {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: #319159;
+  border-bottom: 0.5px solid #319159;
+  padding-bottom: 1rem;
+}
+
+.tablecontainer,
+.form {
+  margin: auto 20%;
+}
+
+.dataTable {
+  color: aliceblue;
+  font-size: smaller;
+  font-weight: 200;
+  margin-top: 1em;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-right: 20%;
+  padding-left: 20%;
+  text-align: left;
+}
+
+.tableHead {
+  color: #58595a7c !important;
+  font-size: 20px !important ;
+  font-weight: 100 !important;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+}
+
+.icons:hover {
+  color: #ffffff;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+.formbutton {
+  text-align: right;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  font-weight: 200;
+  font-size: smaller;
+  margin: 0.6em;
+  color: black;
+  cursor: pointer;
+}
+
+.formbutton:hover {
+  background-color: #fff ;
+  border: 1px solid #ffffff;
+}
+.formbutton:active {
+  outline: none;
+}
+
+/* Car form */
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #ffffff;
+  padding-bottom: 4px;
+  color: #ffffff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  outline: none;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #343a40 inset;
+  -webkit-text-fill-color: #ffffff !important;
+}
+
+.form {
+  border: 0.5px solid #ffffff;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+
+.formheading {
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #21d1477c;
+
+  padding-bottom: 1rem;
+}
+
+/* Modal */
+
+.modalContainer {
+  background-color: #282c34;
+  color: #ffffff7c;
+}
+.close {
+  color: #ffffff7c !important;
+}
